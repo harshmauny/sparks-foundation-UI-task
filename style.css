@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFF0F2;
+}
+
+.sidenav {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+}
+
+.sidenav-logo {
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    margin-bottom: 1rem;
+}
+
+.sidenav a {
+    padding: 6px 8px;
+    text-decoration: none;
+    color: #111;
+    display: block;
+    font-size: 12px;
+}
+
+img {
+    height: 32px;
+    width: 32px;
+}
+
+.sidebar-item {
+    text-align: center;
+}
+
+.main {
+    margin-left: 110px;
+    padding: 2rem;
+}
+
+.top-extra {
+    height: 100px;
+    background-color: #fff;
+}
+
+.main span {
+    margin-left: 0.5rem;
+}
+
+.back-button {
+    color: #7C91A6;
+}
+
+.main-content {
+    margin: 3rem 7rem 2rem;
+}
+
+.url-box {
+    background-color: #fff;
+    padding: 0.75rem;
+    border-radius: 10px;
+}
+
+.or-box {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.upload-box {
+    background-color: #fff;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 180px;
+}
