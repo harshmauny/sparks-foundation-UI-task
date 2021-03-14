@@ -4,6 +4,9 @@ body {
     background-color: #EFF0F2;
 }
 
+
+/* ------------------------------------Side Navbar CSS ------------------------------------*/
+
 .sidenav {
     height: 100%;
     width: 100px;
@@ -13,7 +16,6 @@ body {
     left: 0;
     background-color: #fff;
     overflow-x: hidden;
-    /* padding-top: 20px; */
     box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -34,9 +36,9 @@ body {
 .sidenav a {
     padding: 6px 8px;
     text-decoration: none;
-    color: #111;
     display: block;
     font-size: 12px;
+    color: #7C91A6;
 }
 
 .sidenav a:hover path {
@@ -49,30 +51,27 @@ body {
 
 .sidebar-item {
     text-align: center;
-    color: #7C91A6;
 }
 
-.sidebar-item img {
-    height: 32px;
-    width: 32px;
-}
 
-.main {
-    margin-left: 110px;
-    padding: 2rem;
-}
+/* ------------------------------------ Page Content CSS ------------------------------------*/
 
 .top-extra {
     height: 100px;
     background-color: #fff;
 }
 
-.main span {
-    margin-left: 0.5rem;
+.main {
+    margin-left: 100px;
+    padding: 2rem;
 }
 
 .back-button {
     color: #7C91A6;
+}
+
+.main span {
+    margin-left: 0.5rem;
 }
 
 .main-content {
@@ -99,6 +98,18 @@ body {
     line-height: 180px;
 }
 
+
+/* ------------------------------------ Selected Tile CSS ------------------------------------*/
+
 .selected {
     background-color: #D0E0ED;
+    border-left: 5px solid #366ECB;
+}
+
+.selected .sidebar-item p {
+    color: black;
+}
+
+.selected path {
+    fill: #111;
 }
