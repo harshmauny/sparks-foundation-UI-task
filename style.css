@@ -108,9 +108,10 @@ body {
 
 /* ------------------------------------ Selected Tile CSS ------------------------------------*/
 
-.selected {
+.sidenav a.selected {
     background-color: #D0E0ED;
     border-left: 5px solid #366ECB;
+    padding-left: 3px;
 }
 
 .selected .sidebar-item p {
